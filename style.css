@@ -1,0 +1,29 @@
+#main{
+background-image: url(./background.jpg);
+background-size:cover;
+}
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+.btn-outline-success{
+  border: 1px solid black;
+  color: black;
+}
+.lead{
+  background: rgb(13,235,132);
+background: linear-gradient(90deg, rgba(13,235,132,1) 0%, rgba(87,217,104,1) 2%, rgba(87,217,104,1) 37%, rgba(9,235,36,1) 50%, rgba(87,217,104,1) 64%, rgba(87,217,104,1) 97%, rgba(13,235,169,1) 100%);
+border-radius: 0.75rem;
+padding: 0.5rem;
+color: aliceblue;
+}
+h1{
+  color: white;
+}
+.navbar{
+  background: rgb(13,235,132);
+background: linear-gradient(90deg, rgba(13,235,132,1) 0%, rgba(87,217,104,1) 2%, rgba(87,217,104,1) 37%, rgba(9,235,36,1) 50%, rgba(87,217,104,1) 64%, rgba(87,217,104,1) 97%, rgba(13,235,169,1) 100%);
+
+}
+.mine1{
+  color: aliceblue;
+}
