@@ -1,29 +1,64 @@
-#main{
-background-image: url(./background.jpg);
-background-size:cover;
+
+body{
+  background: rgb(2,52,89);
+background: linear-gradient(90deg, rgba(2,52,89,1) 27%, rgba(34,195,169,1) 82%, rgba(34,193,195,1) 100%);
 }
 *{
   font-family: 'Ubuntu', sans-serif;
+  color: aliceblue;
 }
 .btn-outline-success{
   border: 1px solid black;
   color: black;
 }
+.btn-outline-success:hover{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(34,195,169,1) 57%, rgba(34,193,195,1) 100%);
+}
+.btn-success{
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(34,195,169,1) 57%, rgba(34,193,195,1) 100%);
+}
 .lead{
-  background: rgb(13,235,132);
-background: linear-gradient(90deg, rgba(13,235,132,1) 0%, rgba(87,217,104,1) 2%, rgba(87,217,104,1) 37%, rgba(9,235,36,1) 50%, rgba(87,217,104,1) 64%, rgba(87,217,104,1) 97%, rgba(13,235,169,1) 100%);
-border-radius: 0.75rem;
+  background-color: rgba(255,255,255,0.2);
 padding: 0.5rem;
-color: aliceblue;
+color: black;
+font-weight:500;
 }
 h1{
   color: white;
 }
 .navbar{
-  background: rgb(13,235,132);
-background: linear-gradient(90deg, rgba(13,235,132,1) 0%, rgba(87,217,104,1) 2%, rgba(87,217,104,1) 37%, rgba(9,235,36,1) 50%, rgba(87,217,104,1) 64%, rgba(87,217,104,1) 97%, rgba(13,235,169,1) 100%);
-
+  background: rgb(2,52,89);
+  background: linear-gradient(90deg, rgba(2,52,89,1) 27%, rgba(34,195,169,1) 82%, rgba(34,193,195,1) 100%);border-radius: 0.75rem;
+  
 }
-.mine1{
+a, href{
   color: aliceblue;
+}
+.navbar-brand{
+  
+  padding: top 0;
+    padding-bottom: 0;
+    margin-right:0;
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+}
+.first{
+  background-image: url(./background.jpg);
+background-size:cover;
+border-radius: 0.75rem;
+}
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 0.75rem;
 }

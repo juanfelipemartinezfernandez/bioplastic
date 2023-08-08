@@ -18,10 +18,10 @@
 
 <body>
   <!-- Menu -->
-  <nav class="navbar navbar-success navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-success navbar-expand-lg  mine1">
     <div class="container-fluid">
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">
+      <nav class="navbar navbar-light bg-light" style="padding-top: 0px; ; padding-bottom: 0px; margin-right: 2rem;">
+        <a class="navbar-brand mt-0 pt-0 pr-5" href="#">
           <img src="./Logo.jpg" width="130" height="60" alt="">
         </a>
       </nav>
@@ -29,16 +29,22 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#" style="
+            color: aliceblue;
+        ">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Productos</a>
+            <a class="nav-link" href="#" style="
+            color: aliceblue;
+        ">Productos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle "style="
+            color: aliceblue;
+        " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Quienes Somos
             </a>
             <ul class="dropdown-menu">
@@ -61,13 +67,15 @@
 
   <section id="main">
 
-    <div class="container col-xxl-8 px-4 py-5">
+    <div class="container col-xxl-11 px-5 py-5 mt-lg-5 first">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-12 col-lg-6">
-          <img src="." class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+          
         </div>
         <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 mine1">Responsive left-aligned hero with image</h1>
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 mine1">Bioplastic SAS
+
+          </h1>
           <p class="lead mine">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" class="btn btn-success btn-lg px-4 me-md-2">Primary</button>
@@ -81,6 +89,37 @@
   <!-- Start container to align -->
   <div class="container">
     <!-- end -->
+    <!-- Features -->
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Por que escojernos</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+          </div>
+          <h2>Featured title</h2>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+          </div>
+          <h2>Featured title</h2>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          
+        </div>
+        <div class="feature col">
+          <div class="feature-icon bg-primary bg-gradient">
+            <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+          </div>
+          <h2>Featured title</h2>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+          
+        </div>
+      </div>
+    </div>
+    <!-- Carrousel -->
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
