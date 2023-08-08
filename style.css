@@ -47,7 +47,7 @@ a, href{
     white-space: nowrap;
 }
 .first{
-  background-image: url(./background.jpg);
+  background-image: url(./background1.jpg);
 background-size:cover;
 border-radius: 0.75rem;
 }
