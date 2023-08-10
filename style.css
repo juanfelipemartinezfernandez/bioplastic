@@ -66,6 +66,9 @@ border-radius: 0.75rem;
 nav img{
 border-radius: 0.75rem;
 }
+.foot_text{
+  color: white !important;
+}
 @media (max-width:1000px) {
   .lead{
     background-color: rgba(255,255,255,0.9);
