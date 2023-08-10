@@ -21,6 +21,7 @@ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(34,195,169,1) 57%,
 }
 .lead{
   background-color: rgba(255,255,255,0.2);
+  border-radius: 0.75rem;
 padding: 0.5rem;
 color: black;
 font-weight:500;
@@ -64,4 +65,10 @@ border-radius: 0.75rem;
 }
 nav img{
 border-radius: 0.75rem;
+}
+@media (max-width:1000px) {
+  .lead{
+    background-color: rgba(255,255,255,0.9);
+  }
+  
 }
